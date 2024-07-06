@@ -38,3 +38,6 @@ def predict():
     prediction = 'Churn' if prediction[0] > 0.5 else 'Not Churn'
 
     return render_template('index.html', prediction_text=f'Customer will {prediction}')
+
+if __name__ == '__main__':
+    app.run(debug=True)
