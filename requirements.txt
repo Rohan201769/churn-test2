@@ -1,0 +1,5 @@
+Flask==2.2.5
+tensorflow==2.15.0  # Updated to a more recent version
+scikit-learn==1.4.2
+joblib==1.4.0
+numpy==1.26.4
